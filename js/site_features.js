@@ -9,12 +9,13 @@
 // Variables to hold DOM elements that do stuff
 var bodyText = document.getElementById("body-text")
 var aboutButton = document.getElementById("about-button")
+var mapButton = document.getElementById("map-button")
 var legendTitle = document.getElementById("legend-title")
 var legendBody = document.getElementById("legend-body")
 
 // Variables to hold text descriptions
 legendTitleText = "Harvest Moon Trailway"
-legendBodyText = "Annapolis Valley, N.S."
+legendBodyText = "Annapolis Valley, Nova Scotia, Canada"
 aboutText =
 `
 <br/>
@@ -43,7 +44,7 @@ in context.
 <b>Bootstrap</b> was used to create a simple, responsive website layout, and
 Mapbox Studio was used to create custom basemap tiles.
 `
-introText = "<br/>Come explore the Harvest Moon Trail! :D"
+introText = ""
 
 // Initialize the body text of the website to display the intro paragraph
 // and the legend box to display the trail name
@@ -54,4 +55,8 @@ legendBody.innerHTML = legendBodyText
 // When the About menu item is clicked, display the About HTML
 aboutButton.onclick = function() {
   bodyText.innerHTML = aboutText
+}
+
+mapButton.onclick = function() {
+  bodyText.innterHTML = introText
 }

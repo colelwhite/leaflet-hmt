@@ -46,7 +46,7 @@ function onEachFeatureTrail(feature, layer) {
 // users
 function usercountStyle(feature) {
   var lineWeightToUse;
-  var line = feature.properties.usercoun21;
+  // var line = feature.properties.usercoun21;
 
   // if (line < 125) lineWeightToUse = 0.5;
   // else if (line >= 125 && line < 170) lineWeightToUse = 2.5;
@@ -152,6 +152,7 @@ var trailh = new L.GeoJSON.AJAX(trailh_url, {
 })
 
 
+
 // Load custom icon, code from https://stackoverflow.com/questions/31601442/add-custom-icon-to-leaflet-ajax-data
 var poi = new L.GeoJSON.AJAX(poi_url,{
                       middleware:function(data){
@@ -165,7 +166,7 @@ var poi = new L.GeoJSON.AJAX(poi_url,{
                               else iconToUse = genericIcon;
                               layer.setIcon(iconToUse);
 
-                              layer.bindPopup(feature.properties.type);
+                              layer.bindPopup(feature.properties.name);
                             }
                           }).addTo(markers); // why does this need to be
                       }                     // declared here? Using poi.addTo(markers)
@@ -178,26 +179,30 @@ markers.addTo(map);
 trailseg.addTo(map);
 trailh.addTo(map);
 
-// Add scalebar
+// Add scalebar and zoom to map
 L.control.scale({imperial: false}).addTo(map);
 L.control.zoom({position: 'bottomleft'}).addTo(map);
 
-var poiList = {'Lighthouse': lightIcon, 'Police': policeIcon, 'Boat Launch': boatIcon, 'Hospital': hospitalIcon}
-
-// contents of right slide menu
-var contents = []
-
-// var right = '<h1>Slide Menu (Right)</h1>';
+// Create a dictionary of items to be displayed in the legend (right slide menu)
+var poiList = {'Lighthouse': lightIcon, 'Police': policeIcon,
+               'Boat Launch': boatIcon, 'Hospital': hospitalIcon,
+               'Point of Interest': genericIcon}
 
 
+// Contents of right slide menu
+var contents = [`<br/> <div class="circle" style="width: 12px; height: 12px;
+                display: inline-block;"></div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp; Trail Head <br/><br/>`]
+
+// For each entry in the poiList dictionary, create a legend item
 for (var key in poiList) {
     // check if the property/key is defined in the object itself, not in parent
     if (poiList.hasOwnProperty(key)) {
-        contents += '<img src="' + poiList[key].options.iconUrl + '"/>' + key + '<br/>';
+        contents += '<img src="' + poiList[key].options.iconUrl + '"/>&nbsp;&nbsp;&nbsp;&nbsp;' + key + '<br/><br/>';
     }
 }
 
-// right slide menu
+// Create right slide menu
 var slideMenu = L.control.slideMenu('', {position: 'bottomright', menuposition: 'topright', width: '20%', height: '400px', delay: '50', icon: 'fa-chevron-left'}).addTo(map);
  slideMenu.setContents(contents);
 

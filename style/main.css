@@ -50,7 +50,7 @@ body {
     border: 5px solid rgba(0,41.6,23.1,1);
     top: 90px;
     left: 75px;
-    padding: 5px;
+    padding: 15px;
     position: absolute;
     width: 17%;
     z-index: 5000;
@@ -59,13 +59,13 @@ body {
 }
 
 .legend-main {
-    top: 160px;
+    top: 190px;
 }
 
 .leaflet-menu{
   background-color: rgba(246,248,247,.7);
   border: 5px solid rgba(0,41.6,23.1,1);
-  padding: 5px;
+  padding: 15px;
   position: absolute;
   width: 17%;
   z-index: 5000;
@@ -73,6 +73,7 @@ body {
   border-radius: 4px;
 }
 
+/* Custom scroll bar */
 .ss-scroll {
   width: 12px;
   z-index: 9999;
@@ -89,6 +90,7 @@ body {
   border-bottom: 1px solid #000;
 }
 
+/* Control items (zoom, scalebar) are yellow */
 .leaflet-control {
   background-color: #fff233;
 }
@@ -113,7 +115,7 @@ body {
 }
 
 .leaflet-control-minimap {
-    border: rgba(100, 94.9, 20.0, 1) solid;
+    border: rgba(0, 0, 0, 1) solid;
     border-radius: 3px;
     background: #f8f8f9;
     transition: all .6s
