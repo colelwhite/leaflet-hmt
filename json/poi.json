@@ -1,0 +1,3298 @@
+{
+  "type" : "FeatureCollection",
+  "crs" : {
+    "type" : "name",
+    "properties" : {
+      "name" : "EPSG:4326"
+    }
+  },
+  "features" : [
+    {
+      "type" : "Feature",
+      "id" : 0,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -66.370206461999942,
+          44.238482799000053
+        ]
+      },
+      "properties" : {
+        "FID" : 0,
+        "type" : "beach",
+        "name" : "Big Pond Beach",
+        "address" : " ",
+        "name_2" : " ",
+        "park_type" : " "
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 1,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -66.392532019999976,
+          44.248616918000039
+        ]
+      },
+      "properties" : {
+        "FID" : 1,
+        "type" : "trail",
+        "name" : "Brier Island Coastal Trail",
+        "address" : " ",
+        "name_2" : " ",
+        "park_type" : " "
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 2,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -66.392557837999959,
+          44.249147665000066
+        ]
+      },
+      "properties" : {
+        "FID" : 2,
+        "type" : "lighthouse",
+        "name" : "Brier Island Light and Alarm",
+        "address" : " ",
+        "name_2" : " ",
+        "park_type" : " "
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 3,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -66.342031461999966,
+          44.255514313000049
+        ]
+      },
+      "properties" : {
+        "FID" : 3,
+        "type" : "monument",
+        "name" : "Joshua Slocum",
+        "address" : " ",
+        "name_2" : " ",
+        "park_type" : " "
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 4,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -66.338220984999964,
+          44.257180278000078
+        ]
+      },
+      "properties" : {
+        "FID" : 4,
+        "type" : "lighthouse",
+        "name" : "Peter Island Lighthouse",
+        "address" : " ",
+        "name_2" : " ",
+        "park_type" : " "
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 5,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -66.34213802499994,
+          44.286804275000065
+        ]
+      },
+      "properties" : {
+        "FID" : 5,
+        "type" : "lighthouse",
+        "name" : "Grand Passage Lighthouse",
+        "address" : " ",
+        "name_2" : " ",
+        "park_type" : " "
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 6,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -66.273854548999964,
+          44.333736468000041
+        ]
+      },
+      "properties" : {
+        "FID" : 6,
+        "type" : "trail",
+        "name" : "Central Grove Trail",
+        "address" : " ",
+        "name_2" : " ",
+        "park_type" : " "
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 7,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -66.276856843999951,
+          44.335672344000045
+        ]
+      },
+      "properties" : {
+        "FID" : 7,
+        "type" : "provincial park",
+        "name" : "Central Grove Provincial Park",
+        "address" : " ",
+        "name_2" : " ",
+        "park_type" : "day use"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 8,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -66.235966753999946,
+          44.36769965600007
+        ]
+      },
+      "properties" : {
+        "FID" : 8,
+        "type" : "trail",
+        "name" : "Balancing Rock Trail",
+        "address" : "Highway 217",
+        "name_2" : " ",
+        "park_type" : " "
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 9,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -66.062499198999944,
+          44.389606941000068
+        ]
+      },
+      "properties" : {
+        "FID" : 9,
+        "type" : "lighthouse",
+        "name" : "Belliveau Cove Lighthouse",
+        "address" : " ",
+        "name_2" : " ",
+        "park_type" : " "
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 10,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -66.212626025999953,
+          44.391486293000071
+        ]
+      },
+      "properties" : {
+        "FID" : 10,
+        "type" : "museum",
+        "name" : "Islands Museum",
+        "address" : " ",
+        "name_2" : " ",
+        "park_type" : " "
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 11,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -66.214568600999939,
+          44.396340518000045
+        ]
+      },
+      "properties" : {
+        "FID" : 11,
+        "type" : "trail",
+        "name" : "Althouse Look Off Trail",
+        "address" : " ",
+        "name_2" : " ",
+        "park_type" : " "
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 12,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -66.215120676999959,
+          44.403784682000037
+        ]
+      },
+      "properties" : {
+        "FID" : 12,
+        "type" : "lighthouse",
+        "name" : "Boars Head Lighthouse",
+        "address" : " ",
+        "name_2" : " ",
+        "park_type" : " "
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 13,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -65.336498310999957,
+          44.447356926000055
+        ]
+      },
+      "properties" : {
+        "FID" : 13,
+        "type" : "nhs",
+        "name" : "Kejimkujik National Historic Park",
+        "address" : " ",
+        "name_2" : " ",
+        "park_type" : " "
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 14,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -65.952126387999954,
+          44.494247943000062
+        ]
+      },
+      "properties" : {
+        "FID" : 14,
+        "type" : "lighthouse",
+        "name" : "Gilberts Cove Lighthouse",
+        "address" : " ",
+        "name_2" : " ",
+        "park_type" : " "
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 15,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -66.098716940999964,
+          44.497987776000059
+        ]
+      },
+      "properties" : {
+        "FID" : 15,
+        "type" : "beach",
+        "name" : "Sandy Cover Beach",
+        "address" : " ",
+        "name_2" : " ",
+        "park_type" : " "
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 16,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -65.910323200999983,
+          44.512565173000041
+        ]
+      },
+      "properties" : {
+        "FID" : 16,
+        "type" : "beach",
+        "name" : "Savary Beach",
+        "address" : " ",
+        "name_2" : " ",
+        "park_type" : " "
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 17,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -65.907802315999959,
+          44.512812488000066
+        ]
+      },
+      "properties" : {
+        "FID" : 17,
+        "type" : "provincial park",
+        "name" : "Savary Provincial Park",
+        "address" : " ",
+        "name_2" : " ",
+        "park_type" : "day use"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 18,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -66.041093893999971,
+          44.529603235000025
+        ]
+      },
+      "properties" : {
+        "FID" : 18,
+        "type" : "provincial park",
+        "name" : "Lake Midway Provincial Park",
+        "address" : " ",
+        "name_2" : " ",
+        "park_type" : "day use"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 19,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -65.783636587999979,
+          44.538296435000063
+        ]
+      },
+      "properties" : {
+        "FID" : 19,
+        "type" : "trail",
+        "name" : "Acacia Valley Trails",
+        "address" : "Ridge Road",
+        "name_2" : " ",
+        "park_type" : " "
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 20,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -65.615571212999953,
+          44.551808126000026
+        ]
+      },
+      "properties" : {
+        "FID" : 20,
+        "type" : "first nation",
+        "name" : "Bear River 6",
+        "address" : " ",
+        "name_2" : " ",
+        "park_type" : " "
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 21,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -65.430806619999942,
+          44.58020029100004
+        ]
+      },
+      "properties" : {
+        "FID" : 21,
+        "type" : "beach",
+        "name" : "Raven Haven",
+        "address" : " ",
+        "name_2" : " ",
+        "park_type" : " "
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 22,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -65.638400068999943,
+          44.577673610000033
+        ]
+      },
+      "properties" : {
+        "FID" : 22,
+        "type" : "museum",
+        "name" : "Bear River Heritage Museum",
+        "address" : " ",
+        "name_2" : " ",
+        "park_type" : " "
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 23,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -65.707175560999985,
+          44.611212216000069
+        ]
+      },
+      "properties" : {
+        "FID" : 23,
+        "type" : "museum",
+        "name" : "Smith's Cove Old Temperance Hall Museum",
+        "address" : " ",
+        "name_2" : " ",
+        "park_type" : " "
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 24,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -65.923894219999966,
+          44.609069079000051
+        ]
+      },
+      "properties" : {
+        "FID" : 24,
+        "type" : "trail",
+        "name" : "High Cliff Cove Trail",
+        "address" : " ",
+        "name_2" : " ",
+        "park_type" : " "
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 25,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -65.923639040999944,
+          44.609369763000075
+        ]
+      },
+      "properties" : {
+        "FID" : 25,
+        "type" : "beach",
+        "name" : "Gullivers Cove Beach",
+        "address" : " ",
+        "name_2" : " ",
+        "park_type" : " "
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 26,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -65.684965022999961,
+          44.617113756000037
+        ]
+      },
+      "properties" : {
+        "FID" : 26,
+        "type" : "lighthouse",
+        "name" : "Bear River Lighthouse",
+        "address" : " ",
+        "name_2" : " ",
+        "park_type" : " "
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 27,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -65.754831456999966,
+          44.619912421000038
+        ]
+      },
+      "properties" : {
+        "FID" : 27,
+        "type" : "museum",
+        "name" : "Admiral Digby Museum",
+        "address" : " ",
+        "name_2" : " ",
+        "park_type" : " "
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 28,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -65.756314122999981,
+          44.639095287000032
+        ]
+      },
+      "properties" : {
+        "FID" : 28,
+        "type" : "provincial park",
+        "name" : "Annapolis Basin Lookoff Provincial Park",
+        "address" : " ",
+        "name_2" : " ",
+        "park_type" : "day use"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 29,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -65.63233407499996,
+          44.654944533000048
+        ]
+      },
+      "properties" : {
+        "FID" : 29,
+        "type" : "museum",
+        "name" : "Cornwallis Military Museum",
+        "address" : " ",
+        "name_2" : " ",
+        "park_type" : " "
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 30,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -65.456985687999975,
+          44.666158286000041
+        ]
+      },
+      "properties" : {
+        "FID" : 30,
+        "type" : "beach",
+        "name" : "Mickey Hill Beach",
+        "address" : " ",
+        "name_2" : " ",
+        "park_type" : " "
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 31,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -65.450704898999959,
+          44.671698756000069
+        ]
+      },
+      "properties" : {
+        "FID" : 31,
+        "type" : "provincial park",
+        "name" : "Mickey Hill Provincial Park",
+        "address" : " ",
+        "name_2" : " ",
+        "park_type" : "day use"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 32,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -65.479830122999942,
+          44.671948773000054
+        ]
+      },
+      "properties" : {
+        "FID" : 32,
+        "type" : "first nation",
+        "name" : "Bear River 6A",
+        "address" : " ",
+        "name_2" : " ",
+        "park_type" : " "
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 33,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -65.743381054999986,
+          44.671469052000077
+        ]
+      },
+      "properties" : {
+        "FID" : 33,
+        "type" : "monument",
+        "name" : "Poney Express 1849 Monument",
+        "address" : " ",
+        "name_2" : " ",
+        "park_type" : " "
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 34,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -65.753545062999933,
+          44.676004410000075
+        ]
+      },
+      "properties" : {
+        "FID" : 34,
+        "type" : "lighthouse",
+        "name" : "Victoria Beach Lighthouse",
+        "address" : " ",
+        "name_2" : " ",
+        "park_type" : " "
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 35,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -65.785412745999963,
+          44.690850987000033
+        ]
+      },
+      "properties" : {
+        "FID" : 35,
+        "type" : "trail",
+        "name" : "Point Prim",
+        "address" : "Lighthouse Rd",
+        "name_2" : " ",
+        "park_type" : " "
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 36,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -65.786223317999941,
+          44.691018170000063
+        ]
+      },
+      "properties" : {
+        "FID" : 36,
+        "type" : "lighthouse",
+        "name" : "Prim Point Lighthouse",
+        "address" : " ",
+        "name_2" : " ",
+        "park_type" : " "
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 37,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -65.485303656999974,
+          44.69990996100006
+        ]
+      },
+      "properties" : {
+        "FID" : 37,
+        "type" : "trail",
+        "name" : "Hiking & Snowshoe Trail on First Lake",
+        "address" : "Lequille",
+        "name_2" : " ",
+        "park_type" : " "
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 38,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -65.501839602999951,
+          44.705901878000077
+        ]
+      },
+      "properties" : {
+        "FID" : 38,
+        "type" : "first nation",
+        "name" : "Bear River 6B",
+        "address" : " ",
+        "name_2" : " ",
+        "park_type" : " "
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 39,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -65.61888547999996,
+          44.709814587000039
+        ]
+      },
+      "properties" : {
+        "FID" : 39,
+        "type" : "lighthouse",
+        "name" : "Schafner Point Lighthouse",
+        "address" : " ",
+        "name_2" : " ",
+        "park_type" : " "
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 40,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -65.610247252999955,
+          44.711674579000032
+        ]
+      },
+      "properties" : {
+        "FID" : 40,
+        "type" : "nhs",
+        "name" : "Port Royal National Historic Park",
+        "address" : " ",
+        "name_2" : " ",
+        "park_type" : " "
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 41,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -65.61033993999996,
+          44.713405745000045
+        ]
+      },
+      "properties" : {
+        "FID" : 41,
+        "type" : "monument",
+        "name" : "Scotch Fort 1629-1632 Monument",
+        "address" : " ",
+        "name_2" : " ",
+        "park_type" : " "
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 42,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -65.593363225999951,
+          44.717728412000042
+        ]
+      },
+      "properties" : {
+        "FID" : 42,
+        "type" : "nhs",
+        "name" : "Melanson Settlement National Historic Site",
+        "address" : " ",
+        "name_2" : " ",
+        "park_type" : " "
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 43,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -65.498517748999973,
+          44.726741815000025
+        ]
+      },
+      "properties" : {
+        "FID" : 43,
+        "type" : "monument",
+        "name" : "Poutrincourt's Mill 1607 Monument",
+        "address" : " ",
+        "name_2" : " ",
+        "park_type" : " "
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 44,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -65.569860751999954,
+          44.728140581000048
+        ]
+      },
+      "properties" : {
+        "FID" : 44,
+        "type" : "trail",
+        "name" : "Old Winchester Road Trail",
+        "address" : "4372 Granville Rd Granville Ferry",
+        "name_2" : " ",
+        "park_type" : " "
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 45,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -65.518738815999939,
+          44.741081726000061
+        ]
+      },
+      "properties" : {
+        "FID" : 45,
+        "type" : "nhs",
+        "name" : "Fort Anne National Historic Park",
+        "address" : " ",
+        "name_2" : " ",
+        "park_type" : " "
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 46,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -65.538098772999945,
+          44.743015975000048
+        ]
+      },
+      "properties" : {
+        "FID" : 46,
+        "type" : "museum",
+        "name" : "North Hills Museum",
+        "address" : " ",
+        "name_2" : " ",
+        "park_type" : " "
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 47,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -65.519875528999933,
+          44.744296761000044
+        ]
+      },
+      "properties" : {
+        "FID" : 47,
+        "type" : "lighthouse",
+        "name" : "Annapolis Lighthouse",
+        "address" : " ",
+        "name_2" : " ",
+        "park_type" : " "
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 48,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -65.519237089999933,
+          44.744759534000025
+        ]
+      },
+      "properties" : {
+        "FID" : 48,
+        "type" : "museum",
+        "name" : "Sinclair Inn Museum",
+        "address" : " ",
+        "name_2" : " ",
+        "park_type" : " "
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 49,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -65.513465947999975,
+          44.746018560000039
+        ]
+      },
+      "properties" : {
+        "FID" : 49,
+        "type" : "trail",
+        "name" : "French Basin Trail",
+        "address" : "Prince Albert Rd",
+        "name_2" : " ",
+        "park_type" : " "
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 50,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -65.518274457999951,
+          44.747086610000053
+        ]
+      },
+      "properties" : {
+        "FID" : 50,
+        "type" : "museum",
+        "name" : "O'Dell House Museum",
+        "address" : " ",
+        "name_2" : " ",
+        "park_type" : " "
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 51,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -65.670010360999981,
+          44.746280987000034
+        ]
+      },
+      "properties" : {
+        "FID" : 51,
+        "type" : "trail",
+        "name" : "Charlies Trail",
+        "address" : "2077 Shore Rd W Delaps Cove",
+        "name_2" : "Delaps Cove Wilderness Trail",
+        "park_type" : " "
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 52,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -65.639702297999975,
+          44.762862799000061
+        ]
+      },
+      "properties" : {
+        "FID" : 52,
+        "type" : "trail",
+        "name" : "Bohaker Trail",
+        "address" : "2077 Shore Rd W Delaps Cove",
+        "name_2" : " ",
+        "park_type" : " "
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 53,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -65.367719740999974,
+          44.79805338500006
+        ]
+      },
+      "properties" : {
+        "FID" : 53,
+        "type" : "museum",
+        "name" : "Tupperville School Museum",
+        "address" : " ",
+        "name_2" : " ",
+        "park_type" : " "
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 54,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -65.309240876999979,
+          44.822215475000064
+        ]
+      },
+      "properties" : {
+        "FID" : 54,
+        "type" : "nhs",
+        "name" : "Bloody Creek National Historic Site",
+        "address" : " ",
+        "name_2" : " ",
+        "park_type" : " "
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 55,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -65.291104872999938,
+          44.841103373000067
+        ]
+      },
+      "properties" : {
+        "FID" : 55,
+        "type" : "museum",
+        "name" : "James House Museum",
+        "address" : " ",
+        "name_2" : " ",
+        "park_type" : " "
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 56,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -65.194723951999947,
+          44.863503336000065
+        ]
+      },
+      "properties" : {
+        "FID" : 56,
+        "type" : "trail",
+        "name" : "Roxbury Road Trail",
+        "address" : "Roxbury Rd",
+        "name_2" : " ",
+        "park_type" : " "
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 57,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -65.312872589999984,
+          44.871167651000064
+        ]
+      },
+      "properties" : {
+        "FID" : 57,
+        "type" : "view park",
+        "name" : "Valleyview Lookoff",
+        "address" : " ",
+        "name_2" : " ",
+        "park_type" : " "
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 58,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -65.31242765199994,
+          44.871336822000046
+        ]
+      },
+      "properties" : {
+        "FID" : 58,
+        "type" : "provincial park",
+        "name" : "Valleyview Provincial Park",
+        "address" : " ",
+        "name_2" : " ",
+        "park_type" : "camping"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 59,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -65.349787420999974,
+          44.905918857000074
+        ]
+      },
+      "properties" : {
+        "FID" : 59,
+        "type" : "lighthouse",
+        "name" : "Hampton Lighthouse",
+        "address" : " ",
+        "name_2" : " ",
+        "park_type" : " "
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 60,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -65.351556741999957,
+          44.905934554000055
+        ]
+      },
+      "properties" : {
+        "FID" : 60,
+        "type" : "beach",
+        "name" : "Hampton Beach",
+        "address" : " ",
+        "name_2" : " ",
+        "park_type" : " "
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 61,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -65.173626612999954,
+          44.966680502000031
+        ]
+      },
+      "properties" : {
+        "FID" : 61,
+        "type" : "museum",
+        "name" : "Mount Hanley School Museum",
+        "address" : " ",
+        "name_2" : " ",
+        "park_type" : " "
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 62,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -65.212077221999948,
+          44.975036725000052
+        ]
+      },
+      "properties" : {
+        "FID" : 62,
+        "type" : "beach",
+        "name" : "Keating Sand Beach",
+        "address" : " ",
+        "name_2" : " ",
+        "park_type" : " "
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 63,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -65.180823905999944,
+          44.992282829000033
+        ]
+      },
+      "properties" : {
+        "FID" : 63,
+        "type" : "provincial park",
+        "name" : "Cottage Cove Provincial Park",
+        "address" : " ",
+        "name_2" : " ",
+        "park_type" : "day use"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 64,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -65.180146825999941,
+          44.993006942000079
+        ]
+      },
+      "properties" : {
+        "FID" : 64,
+        "type" : "beach",
+        "name" : "Cottage Cove Beach",
+        "address" : " ",
+        "name_2" : " ",
+        "park_type" : " "
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 65,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -65.157230947999949,
+          45.004031763000057
+        ]
+      },
+      "properties" : {
+        "FID" : 65,
+        "type" : "lighthouse",
+        "name" : "Port George Lighthouse",
+        "address" : " ",
+        "name_2" : " ",
+        "park_type" : " "
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 66,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -64.240091011999937,
+          44.842838252000035
+        ]
+      },
+      "properties" : {
+        "FID" : 66,
+        "type" : "provincial park",
+        "name" : "Falls Lake Provincial Park",
+        "address" : " ",
+        "name_2" : " ",
+        "park_type" : "day use"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 67,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -64.065724982999939,
+          44.902734577000047
+        ]
+      },
+      "properties" : {
+        "FID" : 67,
+        "type" : "first nation",
+        "name" : "St. Croix 34",
+        "address" : " ",
+        "name_2" : " ",
+        "park_type" : " "
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 68,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -64.690070945999935,
+          44.924341739000056
+        ]
+      },
+      "properties" : {
+        "FID" : 68,
+        "type" : "provincial park",
+        "name" : "Lake George Provincial Park",
+        "address" : " ",
+        "name_2" : " ",
+        "park_type" : "day use"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 69,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -64.690699192999944,
+          44.924617289000025
+        ]
+      },
+      "properties" : {
+        "FID" : 69,
+        "type" : "beach",
+        "name" : "Lake George Beach",
+        "address" : " ",
+        "name_2" : " ",
+        "park_type" : " "
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 70,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -65.056807416999959,
+          44.932822041000065
+        ]
+      },
+      "properties" : {
+        "FID" : 70,
+        "type" : "trail",
+        "name" : "Scotney Pathway",
+        "address" : "Orchard Dr Nictaux",
+        "name_2" : " ",
+        "park_type" : " "
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 71,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -64.773542905999932,
+          44.939507640000045
+        ]
+      },
+      "properties" : {
+        "FID" : 71,
+        "type" : "trail",
+        "name" : "Shingle Mills Falls Hike",
+        "address" : "Aylesford Mountain",
+        "name_2" : " ",
+        "park_type" : " "
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 72,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -64.670366220999938,
+          44.941195485000037
+        ]
+      },
+      "properties" : {
+        "FID" : 72,
+        "type" : "beach",
+        "name" : "Aylesford Lake Beach",
+        "address" : "580 North River Road",
+        "name_2" : " ",
+        "park_type" : " "
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 73,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -65.071120478999944,
+          44.94374964900004
+        ]
+      },
+      "properties" : {
+        "FID" : 73,
+        "type" : "museum",
+        "name" : "Annapolis Valley Macdonald Museum",
+        "address" : " ",
+        "name_2" : " ",
+        "park_type" : " "
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 74,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -64.887865125999951,
+          44.950431090000052
+        ]
+      },
+      "properties" : {
+        "FID" : 74,
+        "type" : "trail",
+        "name" : "Crystal Falls Trail",
+        "address" : " ",
+        "name_2" : " ",
+        "park_type" : " "
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 75,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -64.893907614999932,
+          44.951049323000063
+        ]
+      },
+      "properties" : {
+        "FID" : 75,
+        "type" : "trail",
+        "name" : "McMaster Mill Historic Park",
+        "address" : "205 Rocknotch Rd",
+        "name_2" : " ",
+        "park_type" : " "
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 76,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -64.064061027999969,
+          44.970961058000057
+        ]
+      },
+      "properties" : {
+        "FID" : 76,
+        "type" : "trail",
+        "name" : "Irishmans Road Recreation Site",
+        "address" : "151 Irishmans Rd Newport Station",
+        "name_2" : "West Hants Parks and Recreation",
+        "park_type" : " "
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 77,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -64.982166535999966,
+          44.961831645000075
+        ]
+      },
+      "properties" : {
+        "FID" : 77,
+        "type" : "trail",
+        "name" : "Old Mill Trail",
+        "address" : "213 Adam Dr South Farmington",
+        "name_2" : " ",
+        "park_type" : " "
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 78,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -64.170995269999935,
+          44.982632373000058
+        ]
+      },
+      "properties" : {
+        "FID" : 78,
+        "type" : "monument",
+        "name" : "Sainte Famillie Cemetery",
+        "address" : " ",
+        "name_2" : " ",
+        "park_type" : " "
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 79,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -64.929127625999968,
+          44.976997078000068
+        ]
+      },
+      "properties" : {
+        "FID" : 79,
+        "type" : "museum",
+        "name" : "Greenwood Military Aviation Museum",
+        "address" : " ",
+        "name_2" : " ",
+        "park_type" : " "
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 80,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -64.142897557999959,
+          44.988459860000034
+        ]
+      },
+      "properties" : {
+        "FID" : 80,
+        "type" : "museum",
+        "name" : "Haliburton House Museum",
+        "address" : " ",
+        "name_2" : " ",
+        "park_type" : " "
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 81,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -64.142864007999947,
+          44.991484488000026
+        ]
+      },
+      "properties" : {
+        "FID" : 81,
+        "type" : "museum",
+        "name" : "Shand House Museum",
+        "address" : " ",
+        "name_2" : " ",
+        "park_type" : " "
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 82,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -64.946091647999936,
+          44.980860671000073
+        ]
+      },
+      "properties" : {
+        "FID" : 82,
+        "type" : "trail",
+        "name" : "Stronach Park",
+        "address" : "Bridge St.",
+        "name_2" : " ",
+        "park_type" : " "
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 83,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -64.13311734499996,
+          44.993608890000075
+        ]
+      },
+      "properties" : {
+        "FID" : 83,
+        "type" : "museum",
+        "name" : "West Hants Historical Society Museum",
+        "address" : " ",
+        "name_2" : " ",
+        "park_type" : " "
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 84,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -64.135184158999948,
+          44.99467136100003
+        ]
+      },
+      "properties" : {
+        "FID" : 84,
+        "type" : "nhs",
+        "name" : "Fort Edward National Historic Site",
+        "address" : " ",
+        "name_2" : " ",
+        "park_type" : " "
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 85,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -63.970399617999988,
+          45.011981157000037
+        ]
+      },
+      "properties" : {
+        "FID" : 85,
+        "type" : "provincial park",
+        "name" : "Smileys Provincial Park",
+        "address" : " ",
+        "name_2" : " ",
+        "park_type" : "camping"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 86,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -65.157230947999949,
+          45.004031763000057
+        ]
+      },
+      "properties" : {
+        "FID" : 86,
+        "type" : "lighthouse",
+        "name" : "Port George Lighthouse",
+        "address" : " ",
+        "name_2" : " ",
+        "park_type" : " "
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 87,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -64.911976853999988,
+          45.009196901000053
+        ]
+      },
+      "properties" : {
+        "FID" : 87,
+        "type" : "provincial park",
+        "name" : "Clairmont Provincial Park",
+        "address" : " ",
+        "name_2" : " ",
+        "park_type" : "day use"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 88,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -64.123575326999969,
+          45.020765333000043
+        ]
+      },
+      "properties" : {
+        "FID" : 88,
+        "type" : "trail",
+        "name" : "Avondale Trail System",
+        "address" : "50 Avondale Crossroad Rd",
+        "name_2" : " ",
+        "park_type" : " "
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 89,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -64.129805411999939,
+          45.022292776000029
+        ]
+      },
+      "properties" : {
+        "FID" : 89,
+        "type" : "museum",
+        "name" : "Avon River Heritage Museum",
+        "address" : " ",
+        "name_2" : " ",
+        "park_type" : " "
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 90,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -64.397793333999971,
+          45.025108413000055
+        ]
+      },
+      "properties" : {
+        "FID" : 90,
+        "type" : "provincial park",
+        "name" : "Lumsden Pond Provincial Park",
+        "address" : " ",
+        "name_2" : " ",
+        "park_type" : "day use"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 91,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -64.39714945299994,
+          45.025937411000029
+        ]
+      },
+      "properties" : {
+        "FID" : 91,
+        "type" : "beach",
+        "name" : "Lumsden Pond Beach",
+        "address" : " ",
+        "name_2" : " ",
+        "park_type" : " "
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 92,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -64.341411629999982,
+          45.034681204000037
+        ]
+      },
+      "properties" : {
+        "FID" : 92,
+        "type" : "trail",
+        "name" : "Anima Mundi Trails",
+        "address" : "360 East Davison Street",
+        "name_2" : " ",
+        "park_type" : " "
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 93,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -64.180717414999947,
+          45.037002896000047
+        ]
+      },
+      "properties" : {
+        "FID" : 93,
+        "type" : "trail",
+        "name" : "Laurie Saulnier Memorial Trail",
+        "address" : "596 Bog Rd Mount Denson",
+        "name_2" : "Hants West Wildlife Association",
+        "park_type" : " "
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 94,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -64.238107067999977,
+          45.041648233000046
+        ]
+      },
+      "properties" : {
+        "FID" : 94,
+        "type" : "first nation",
+        "name" : "Glooscap 35",
+        "address" : " ",
+        "name_2" : " ",
+        "park_type" : " "
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 95,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -64.039634163999949,
+          45.045173021000039
+        ]
+      },
+      "properties" : {
+        "FID" : 95,
+        "type" : "trail",
+        "name" : "Upper Burlington Planters Trail",
+        "address" : "Old Walton Rd Upper Burlington",
+        "name_2" : "West Hants Parks and Recreation",
+        "park_type" : " "
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 96,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -64.735129036999979,
+          45.041648051000038
+        ]
+      },
+      "properties" : {
+        "FID" : 96,
+        "type" : "museum",
+        "name" : "Apple Capital Museum",
+        "address" : " ",
+        "name_2" : " ",
+        "park_type" : " "
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 97,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -64.332445624999934,
+          45.053927304000069
+        ]
+      },
+      "properties" : {
+        "FID" : 97,
+        "type" : "trail",
+        "name" : "Wolfville Watershed Nature Reserve",
+        "address" : "Forest Hill Road",
+        "name_2" : " ",
+        "park_type" : " "
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 98,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -64.68437599899994,
+          45.051543916000071
+        ]
+      },
+      "properties" : {
+        "FID" : 98,
+        "type" : "trail",
+        "name" : "Waterville Recreation Club",
+        "address" : "1015 Maple St Waterville",
+        "name_2" : " ",
+        "park_type" : " "
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 99,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -64.591914816999974,
+          45.055817466000065
+        ]
+      },
+      "properties" : {
+        "FID" : 99,
+        "type" : "trail",
+        "name" : "Ravine Park & Trail",
+        "address" : "Poplar Dr Coldbrook",
+        "name_2" : " ",
+        "park_type" : " "
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 100,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -64.398272900999984,
+          45.058727121000061
+        ]
+      },
+      "properties" : {
+        "FID" : 100,
+        "type" : "trail",
+        "name" : "White Rock Community Trail",
+        "address" : "1542 White Rock Rd White Rock",
+        "name_2" : "White Rock Community Association",
+        "park_type" : " "
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 101,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -65.063969887999974,
+          45.049113481000063
+        ]
+      },
+      "properties" : {
+        "FID" : 101,
+        "type" : "beach",
+        "name" : "Margarettsville Beach",
+        "address" : " ",
+        "name_2" : " ",
+        "park_type" : " "
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 102,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -65.064621181999939,
+          45.049183109000069
+        ]
+      },
+      "properties" : {
+        "FID" : 102,
+        "type" : "lighthouse",
+        "name" : "Margaretsville Lighthouse",
+        "address" : " ",
+        "name_2" : " ",
+        "park_type" : " "
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 103,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -64.180881499999941,
+          45.064066289000039
+        ]
+      },
+      "properties" : {
+        "FID" : 103,
+        "type" : "monument",
+        "name" : "William Hall Memorial",
+        "address" : " ",
+        "name_2" : " ",
+        "park_type" : " "
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 104,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -64.178479513999946,
+          45.064779323000039
+        ]
+      },
+      "properties" : {
+        "FID" : 104,
+        "type" : "museum",
+        "name" : "Churchill House",
+        "address" : " ",
+        "name_2" : " ",
+        "park_type" : " "
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 105,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -64.573225681999986,
+          45.067798713000059
+        ]
+      },
+      "properties" : {
+        "FID" : 105,
+        "type" : "provincial park",
+        "name" : "Coldbrook Provincial Park",
+        "address" : " ",
+        "name_2" : " ",
+        "park_type" : "day use"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 106,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -64.652225774999977,
+          45.067978836000066
+        ]
+      },
+      "properties" : {
+        "FID" : 106,
+        "type" : "first nation",
+        "name" : "Cambridge 32",
+        "address" : " ",
+        "name_2" : " ",
+        "park_type" : " "
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 107,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -64.48039027599998,
+          45.071676998000044
+        ]
+      },
+      "properties" : {
+        "FID" : 107,
+        "type" : "trail",
+        "name" : "Ravine Trail",
+        "address" : "32 Main St Kentville",
+        "name_2" : "Agricultural Research Station Nature Trail",
+        "park_type" : " "
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 108,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -64.435393422999937,
+          45.074301328000047
+        ]
+      },
+      "properties" : {
+        "FID" : 108,
+        "type" : "trail",
+        "name" : "Lockhart Ryan Memorial Park",
+        "address" : "9443 Commercial St New Minas",
+        "name_2" : "New Minas Recreation",
+        "park_type" : " "
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 109,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -64.514365029999965,
+          45.074883926000041
+        ]
+      },
+      "properties" : {
+        "FID" : 109,
+        "type" : "trail",
+        "name" : "The Gorge",
+        "address" : "53 Gladys Porter Dr Kentville",
+        "name_2" : "Mountain Bike, Walking, & Snowshoe Trails",
+        "park_type" : " "
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 110,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -64.538484266999944,
+          45.075959037000075
+        ]
+      },
+      "properties" : {
+        "FID" : 110,
+        "type" : "trail",
+        "name" : "Kentville Migratory Bird Sanctuary",
+        "address" : "655 Park St Kentville",
+        "name_2" : " ",
+        "park_type" : " "
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 111,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -64.494042260999947,
+          45.077799656000025
+        ]
+      },
+      "properties" : {
+        "FID" : 111,
+        "type" : "museum",
+        "name" : "Kings County Museum",
+        "address" : " ",
+        "name_2" : " ",
+        "park_type" : " "
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 112,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -64.493383244999961,
+          45.078815502000054
+        ]
+      },
+      "properties" : {
+        "FID" : 112,
+        "type" : "trail",
+        "name" : "Miner's Marsh Walking Trail",
+        "address" : "77 Barclay St Kentville",
+        "name_2" : " ",
+        "park_type" : " "
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 113,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -64.240007323999976,
+          45.086214066000025
+        ]
+      },
+      "properties" : {
+        "FID" : 113,
+        "type" : "view park",
+        "name" : "Veterans Memorial View Park",
+        "address" : "West Brooklyn Road",
+        "name_2" : " ",
+        "park_type" : " "
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 114,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -64.342444673999978,
+          45.08564507400007
+        ]
+      },
+      "properties" : {
+        "FID" : 114,
+        "type" : "trail",
+        "name" : "Wolfille Reservoir Park",
+        "address" : "Sherwood Ave. and Pleasant St.",
+        "name_2" : " ",
+        "park_type" : " "
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 115,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -64.356205230999933,
+          45.086253783000075
+        ]
+      },
+      "properties" : {
+        "FID" : 115,
+        "type" : "monument",
+        "name" : "Mona Parsons",
+        "address" : " ",
+        "name_2" : " ",
+        "park_type" : " "
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 116,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -64.055231348999939,
+          45.094656068000063
+        ]
+      },
+      "properties" : {
+        "FID" : 116,
+        "type" : "monument",
+        "name" : "Hants County Acadian Heritage",
+        "address" : " ",
+        "name_2" : " ",
+        "park_type" : " "
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 117,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -64.358888129999968,
+          45.091578861000073
+        ]
+      },
+      "properties" : {
+        "FID" : 117,
+        "type" : "museum",
+        "name" : "Randall House Museum",
+        "address" : " ",
+        "name_2" : " ",
+        "park_type" : " "
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 118,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -64.212889772999972,
+          45.097205417000055
+        ]
+      },
+      "properties" : {
+        "FID" : 118,
+        "type" : "beach",
+        "name" : "Blue Beach",
+        "address" : " ",
+        "name_2" : " ",
+        "park_type" : " "
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 119,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -64.182619934999934,
+          45.098141549000047
+        ]
+      },
+      "properties" : {
+        "FID" : 119,
+        "type" : "beach",
+        "name" : "Hobarts Beach",
+        "address" : " ",
+        "name_2" : " ",
+        "park_type" : " "
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 120,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -64.216101920999961,
+          45.098916130000077
+        ]
+      },
+      "properties" : {
+        "FID" : 120,
+        "type" : "museum",
+        "name" : "Blue Beach Fossil Museum",
+        "address" : " ",
+        "name_2" : " ",
+        "park_type" : " "
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 121,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -64.47632434999997,
+          45.098854517000063
+        ]
+      },
+      "properties" : {
+        "FID" : 121,
+        "type" : "nhs",
+        "name" : "Abraham Gesner National Historic Site",
+        "address" : " ",
+        "name_2" : " ",
+        "park_type" : " "
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 122,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -64.305047405999971,
+          45.102941380000061
+        ]
+      },
+      "properties" : {
+        "FID" : 122,
+        "type" : "monument",
+        "name" : "Sir Robert Laird Borden Monument",
+        "address" : " ",
+        "name_2" : " ",
+        "park_type" : " "
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 123,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -64.848231129999988,
+          45.095664041000077
+        ]
+      },
+      "properties" : {
+        "FID" : 123,
+        "type" : "trail",
+        "name" : "Aylesford Mountain Conservation Lands",
+        "address" : "Nollet Beckwith Rd",
+        "name_2" : " ",
+        "park_type" : " "
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 124,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -64.382123738999951,
+          45.102287550000028
+        ]
+      },
+      "properties" : {
+        "FID" : 124,
+        "type" : "monument",
+        "name" : "The New England Planters",
+        "address" : " ",
+        "name_2" : " ",
+        "park_type" : " "
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 125,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -64.311520762999976,
+          45.103204394000045
+        ]
+      },
+      "properties" : {
+        "FID" : 125,
+        "type" : "view park",
+        "name" : "The Landscape of Grand-Pré View Park",
+        "address" : " ",
+        "name_2" : " ",
+        "park_type" : " "
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 126,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -64.306215631999976,
+          45.104741416000081
+        ]
+      },
+      "properties" : {
+        "FID" : 126,
+        "type" : "nhs",
+        "name" : "Attack at Grand Pre",
+        "address" : " ",
+        "name_2" : " ",
+        "park_type" : " "
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 127,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -64.22453713699997,
+          45.108523760000026
+        ]
+      },
+      "properties" : {
+        "FID" : 127,
+        "type" : "lighthouse",
+        "name" : "Horton Bluff Lighthouse",
+        "address" : " ",
+        "name_2" : " ",
+        "park_type" : " "
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 128,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -64.284840004999978,
+          45.109298104000061
+        ]
+      },
+      "properties" : {
+        "FID" : 128,
+        "type" : "monument",
+        "name" : "Acacia Villa School",
+        "address" : " ",
+        "name_2" : " ",
+        "park_type" : " "
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 129,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -64.311939202999952,
+          45.109539935000043
+        ]
+      },
+      "properties" : {
+        "FID" : 129,
+        "type" : "nhs",
+        "name" : "Grand Pre National Historic Park",
+        "address" : " ",
+        "name_2" : " ",
+        "park_type" : " "
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 130,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -64.241344071999947,
+          45.110437810000064
+        ]
+      },
+      "properties" : {
+        "FID" : 130,
+        "type" : "beach",
+        "name" : "Avonport Beach",
+        "address" : " ",
+        "name_2" : " ",
+        "park_type" : " "
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 131,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -64.379269375999968,
+          45.11043773800003
+        ]
+      },
+      "properties" : {
+        "FID" : 131,
+        "type" : "museum",
+        "name" : "Prescott House Museum",
+        "address" : " ",
+        "name_2" : " ",
+        "park_type" : " "
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 132,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -64.949349119999965,
+          45.103620995000028
+        ]
+      },
+      "properties" : {
+        "FID" : 132,
+        "type" : "beach",
+        "name" : "Morden Beach",
+        "address" : " ",
+        "name_2" : " ",
+        "park_type" : " "
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 133,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -64.948892189999981,
+          45.103709181000056
+        ]
+      },
+      "properties" : {
+        "FID" : 133,
+        "type" : "monument",
+        "name" : "French Cross",
+        "address" : "French Cross Road",
+        "name_2" : " ",
+        "park_type" : " "
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 134,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -64.596788751999952,
+          45.113145577000068
+        ]
+      },
+      "properties" : {
+        "FID" : 134,
+        "type" : "beach",
+        "name" : "Silver Lake Beach",
+        "address" : " ",
+        "name_2" : " ",
+        "park_type" : " "
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 135,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -64.523224977999973,
+          45.126238340000043
+        ]
+      },
+      "properties" : {
+        "FID" : 135,
+        "type" : "museum",
+        "name" : "Charles Macdonald Concrete House Museum",
+        "address" : " ",
+        "name_2" : " ",
+        "park_type" : " "
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 136,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -64.651695131999986,
+          45.126758669000026
+        ]
+      },
+      "properties" : {
+        "FID" : 136,
+        "type" : "trail",
+        "name" : "Woodville Hiking Trails",
+        "address" : "745 Burgess Mountain Rd Woodville",
+        "name_2" : " ",
+        "park_type" : " "
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 137,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -64.519267707999973,
+          45.130351575000077
+        ]
+      },
+      "properties" : {
+        "FID" : 137,
+        "type" : "trail",
+        "name" : "Centreville Park",
+        "address" : "Sherman Belcher Rd Centreville",
+        "name_2" : " ",
+        "park_type" : " "
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 138,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -64.288601996999944,
+          45.136868584000069
+        ]
+      },
+      "properties" : {
+        "FID" : 138,
+        "type" : "view park",
+        "name" : "The Guzzle",
+        "address" : " ",
+        "name_2" : " ",
+        "park_type" : " "
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 139,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -64.31662096499997,
+          45.138529384000037
+        ]
+      },
+      "properties" : {
+        "FID" : 139,
+        "type" : "beach",
+        "name" : "Evangeline Beach",
+        "address" : " ",
+        "name_2" : " ",
+        "park_type" : " "
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 140,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -64.187448261999975,
+          45.141764606000038
+        ]
+      },
+      "properties" : {
+        "FID" : 140,
+        "type" : "beach",
+        "name" : "Kempt Quarry Recreation Site",
+        "address" : "6020 Hwy 215 Kempt Shore",
+        "name_2" : "West Hants Parks and Recreation",
+        "park_type" : " "
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 141,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -64.588832873999934,
+          45.138462350000054
+        ]
+      },
+      "properties" : {
+        "FID" : 141,
+        "type" : "museum",
+        "name" : "Northville Farm Heritage Centre",
+        "address" : " ",
+        "name_2" : " ",
+        "park_type" : " "
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 142,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -64.709630386999947,
+          45.142132958000047
+        ]
+      },
+      "properties" : {
+        "FID" : 142,
+        "type" : "trail",
+        "name" : "Black Rock Trails",
+        "address" : "3800 Black Rock Rd",
+        "name_2" : "Delaps Cove Wilderness Trail",
+        "park_type" : " "
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 143,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -64.436152307999976,
+          45.155853683000032
+        ]
+      },
+      "properties" : {
+        "FID" : 143,
+        "type" : "trail",
+        "name" : "Bigelow Trail",
+        "address" : " ",
+        "name_2" : " ",
+        "park_type" : " "
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 144,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -64.172157347999985,
+          45.160064041000055
+        ]
+      },
+      "properties" : {
+        "FID" : 144,
+        "type" : "beach",
+        "name" : "Cheverie Beach",
+        "address" : " ",
+        "name_2" : " ",
+        "park_type" : " "
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 145,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -64.812271321999958,
+          45.151730968000038
+        ]
+      },
+      "properties" : {
+        "FID" : 145,
+        "type" : "beach",
+        "name" : "Harbourville Beach",
+        "address" : " ",
+        "name_2" : " ",
+        "park_type" : " "
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 146,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -64.422571067999968,
+          45.157428854000045
+        ]
+      },
+      "properties" : {
+        "FID" : 146,
+        "type" : "lighthouse",
+        "name" : "Bordens Wharf Lighthouse",
+        "address" : " ",
+        "name_2" : " ",
+        "park_type" : " "
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 147,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -64.420496736999951,
+          45.157485184000052
+        ]
+      },
+      "properties" : {
+        "FID" : 147,
+        "type" : "monument",
+        "name" : "Harold Borden Monument",
+        "address" : " ",
+        "name_2" : " ",
+        "park_type" : " "
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 148,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -64.422863480999979,
+          45.157796182000027
+        ]
+      },
+      "properties" : {
+        "FID" : 148,
+        "type" : "museum",
+        "name" : "Canning Heritage Centre",
+        "address" : " ",
+        "name_2" : " ",
+        "park_type" : " "
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 149,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -64.168184721999978,
+          45.16072136300005
+        ]
+      },
+      "properties" : {
+        "FID" : 149,
+        "type" : "trail",
+        "name" : "Cheverie Salt Marsh Trail",
+        "address" : "6500 Hwy 215 Cheverie",
+        "name_2" : " ",
+        "park_type" : " "
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 150,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -64.359112988999982,
+          45.15971535500006
+        ]
+      },
+      "properties" : {
+        "FID" : 150,
+        "type" : "beach",
+        "name" : "Kingsport Beach",
+        "address" : " ",
+        "name_2" : " ",
+        "park_type" : " "
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 151,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -64.360219747999963,
+          45.177544628000078
+        ]
+      },
+      "properties" : {
+        "FID" : 151,
+        "type" : "beach",
+        "name" : "Medford Beach",
+        "address" : " ",
+        "name_2" : " ",
+        "park_type" : " "
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 152,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -64.411431597999979,
+          45.198738669000079
+        ]
+      },
+      "properties" : {
+        "FID" : 152,
+        "type" : "view park",
+        "name" : "Blomidon Lookoff",
+        "address" : " ",
+        "name_2" : " ",
+        "park_type" : " "
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 153,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -64.411034165999979,
+          45.198885907000033
+        ]
+      },
+      "properties" : {
+        "FID" : 153,
+        "type" : "provincial park",
+        "name" : "Blomidon Lookoff Provincial Park",
+        "address" : " ",
+        "name_2" : " ",
+        "park_type" : "day use"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 154,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -64.641958556999953,
+          45.198014478000061
+        ]
+      },
+      "properties" : {
+        "FID" : 154,
+        "type" : "beach",
+        "name" : "Huntington Point Beach",
+        "address" : " ",
+        "name_2" : " ",
+        "park_type" : " "
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 155,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -64.61972239399995,
+          45.200429417000066
+        ]
+      },
+      "properties" : {
+        "FID" : 155,
+        "type" : "trail",
+        "name" : "Hall's Harbour Eco Trails",
+        "address" : "1157 West Halls Harbour Rd",
+        "name_2" : " ",
+        "park_type" : " "
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 156,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -64.620744366999986,
+          45.200857117000055
+        ]
+      },
+      "properties" : {
+        "FID" : 156,
+        "type" : "beach",
+        "name" : "Halls Harbour Beach",
+        "address" : " ",
+        "name_2" : " ",
+        "park_type" : " "
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 157,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -64.365834646999986,
+          45.214438245000053
+        ]
+      },
+      "properties" : {
+        "FID" : 157,
+        "type" : "beach",
+        "name" : "Houston Beach",
+        "address" : " ",
+        "name_2" : " ",
+        "park_type" : " "
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 158,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -64.010893705999933,
+          45.233964322000077
+        ]
+      },
+      "properties" : {
+        "FID" : 158,
+        "type" : "trail",
+        "name" : "Walton Lighthouse Trail",
+        "address" : " ",
+        "name_2" : " ",
+        "park_type" : " "
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 159,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -64.011741985999947,
+          45.234152988000062
+        ]
+      },
+      "properties" : {
+        "FID" : 159,
+        "type" : "lighthouse",
+        "name" : "Walton Harbour Lighthouse",
+        "address" : " ",
+        "name_2" : " ",
+        "park_type" : " "
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 160,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -64.514595063999934,
+          45.230875643000047
+        ]
+      },
+      "properties" : {
+        "FID" : 160,
+        "type" : "beach",
+        "name" : "Baxter’s Harbour Beach / Water Fall",
+        "address" : " ",
+        "name_2" : " ",
+        "park_type" : " "
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 161,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -64.460538085999985,
+          45.242892079000057
+        ]
+      },
+      "properties" : {
+        "FID" : 161,
+        "type" : "beach",
+        "name" : "Bennett Bay Beach",
+        "address" : " ",
+        "name_2" : " ",
+        "park_type" : " "
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 162,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -64.456260946999976,
+          45.245199549000063
+        ]
+      },
+      "properties" : {
+        "FID" : 162,
+        "type" : "beach",
+        "name" : "Ross Creek Beach",
+        "address" : " ",
+        "name_2" : " ",
+        "park_type" : " "
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 163,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -64.350735682999982,
+          45.255484482000043
+        ]
+      },
+      "properties" : {
+        "FID" : 163,
+        "type" : "beach",
+        "name" : "Blomidon Beach",
+        "address" : " ",
+        "name_2" : " ",
+        "park_type" : " "
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 164,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -64.341582980999988,
+          45.283038375000046
+        ]
+      },
+      "properties" : {
+        "FID" : 164,
+        "type" : "provincial park",
+        "name" : "Blomidon Provincial Park",
+        "address" : " ",
+        "name_2" : " ",
+        "park_type" : "camping"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 165,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -64.399626936999937,
+          45.300005585000065
+        ]
+      },
+      "properties" : {
+        "FID" : 165,
+        "type" : "beach",
+        "name" : "Scots Bay Beach",
+        "address" : " ",
+        "name_2" : " ",
+        "park_type" : " "
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 166,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -64.397522251999987,
+          45.300418671000045
+        ]
+      },
+      "properties" : {
+        "FID" : 166,
+        "type" : "provincial park",
+        "name" : "Scots Bay North Provincial Park",
+        "address" : " ",
+        "name_2" : " ",
+        "park_type" : "day use"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 167,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -64.459180109999977,
+          45.324418282000067
+        ]
+      },
+      "properties" : {
+        "FID" : 167,
+        "type" : "provincial park",
+        "name" : "Cape Split Provincial Park",
+        "address" : " ",
+        "name_2" : " ",
+        "park_type" : "day use"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 168,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -64.429184977999967,
+          45.314690959000075
+        ]
+      },
+      "properties" : {
+        "FID" : 168,
+        "type" : "trail",
+        "name" : "Cape Split Hiking Trail",
+        "address" : " ",
+        "name_2" : " ",
+        "park_type" : " "
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 169,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -64.30480330599994,
+          45.099711893000062
+        ]
+      },
+      "properties" : {
+        "FID" : 169,
+        "type" : "nhs",
+        "name" : "Covenanter Church National Historic Site",
+        "address" : " ",
+        "name_2" : " ",
+        "park_type" : " "
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 170,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -64.342728529999988,
+          45.085779747000061
+        ]
+      },
+      "properties" : {
+        "FID" : 170,
+        "type" : "beach",
+        "name" : "Wolfville Reservoir Park",
+        "address" : " ",
+        "name_2" : " ",
+        "park_type" : " "
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 171,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -64.35917795499995,
+          45.092689507000046
+        ]
+      },
+      "properties" : {
+        "FID" : 171,
+        "type" : "view park",
+        "name" : "Waterfront Park",
+        "address" : " ",
+        "name_2" : " ",
+        "park_type" : " "
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 172,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -64.279366535999941,
+          45.113220544000058
+        ]
+      },
+      "properties" : {
+        "FID" : 172,
+        "type" : "monument",
+        "name" : "Deportation Cross & New England Planters Monument",
+        "address" : " ",
+        "name_2" : " ",
+        "park_type" : " "
+      }
+    }
+  ]
+}

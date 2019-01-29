@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  	<meta charset="UTF-8" />
+  	<title>Harvest Moon Trailway: Kings & Annapolis Counties, Nova Scotia</title>
+
+      <meta charset="UTF-8" />
+      <meta name="description" content="First web page GEOM4033" />
+      <meta name="keywords" content="HTML,CSS,XML,JavaScript,Leaflet" />
+      <meta name="author" content="Nicole White" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+
+      <link rel="stylesheet" type="text/css" href="style/bootstrap.css" />
+      <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+      <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet'>
+      <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link rel="stylesheet" href="style/simple-scrollbar.css" />
+
+      <script src="js/jquery-3.3.1.min.js"></script>
+
+      <link rel="stylesheet" href="https://unpkg.com/leaflet@1.4.0/dist/leaflet.css"
+       integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
+       crossorigin=""/>
+
+        <script src="https://unpkg.com/leaflet@1.4.0/dist/leaflet.js"
+        integrity="sha512-QVftwZFqvtRNi0ZyCtsznlKSWOStnDORoefr1enyq5mVL4tmKB3S/EnC3rRJcxCPavG10IcrVGSmPh6Qw5lwrg=="
+        crossorigin=""></script>
+
+
+      <link rel="stylesheet" href="style/MarkerCluster.css" />
+      <link rel="stylesheet" href="style/MarkerCluster.Default.css" />
+      <link rel="stylesheet" href="style/Control.MiniMap.min.css"  />
+      <link rel="stylesheet" href="style/L.Control.SlideMenu.css">
+      <link rel="stylesheet" type="text/css" href="style/main.css" />
+  </head>
+
+	<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top ">
+
+      <a class="navbar-brand" href="#">Harvest Moon Trailway</a>
+
+      <button class="navbar-toggler" type="button" data-toggle="collapse"
+              data-target="#navbarCollapse" aria-controls="navbarCollapse"
+              aria-expanded="false" aria-label="Toggle navigation">
+         <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav mr-auto">
+
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Map
+              <span class="sr-only">(current)</span></a>
+          </li>
+
+          <li class="nav-item">
+             <a class="nav-link" href="#body-text" id="about-button">About</a>
+          </li>
+
+          <li class="nav-item">
+             <a class="nav-link" href="#body-text">Explore</a>
+          </li>
+
+          <li class="nav-item">
+             <a class="nav-link" href="#">Photos</a>
+          </li>
+
+        </ul>
+        <div id="logo">
+
+        <img src="img/logo_sm.png" width=120 />
+        </div>
+      </div>
+    </nav>
+
+
+
+    <!-- Leaflet map element -->
+    <div id="map">
+
+
+<div class="legend">
+  <strong id="legend-title"></strong>
+  <br/>
+  <div id="legend-body">
+
+</div>
+  </div>
+
+      <div class="legend-main legend ">
+
+            <div id = "li1">
+            item
+          </div>
+            <div id = "li2">
+            item
+          </div>
+            <div id = "li3">
+            item
+          </div>
+            <div id = "li4">
+            item
+          </div>
+            <div id = "li5">
+            item
+          </div>
+            <div id = "li6">
+            item
+          </div>
+          <div id = "li7">
+          item
+        </div>
+        <div id = "li8">
+        item
+      </div>
+      </div>
+     </div>
+
+    <main role="main" class="container">
+
+<a name = "body-text"></a>
+<div class="body-text" id="body-text">
+</div>
+    </main>
+
+
+
+
+    <!-- Leaflet-ajax library from https://github.com/calvinmetcalf/leaflet-ajax -->
+    <script src="js/leaflet.ajax.min.js"></script>
+
+    <!-- Cluster -->
+    <script src="js/markercluster.js"></script>
+    <!-- Mini Map -->
+    <script src="js/Control.MiniMap.min.js"></script>
+<!-- Slide menu -->
+      <script src="js/L.Control.SlideMenu.js"></script>
+<!-- Custom scroll bar -->
+      <script src="js/simple-scrollbar.min.js"></script>
+
+    <!-- Map script - Loads basemap, external geojson layers, etc. -->
+    <script src = "js/main.js"></script>
+
+    <!-- Website script - onClicks and things -->
+    <script src = "js/site_features.js"></script>
+
+
+
+
+	</body>
+</html>

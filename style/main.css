@@ -1,0 +1,120 @@
+/* Website design custom CSS */
+
+h1 {
+  color: #fff;
+
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #212222;
+}
+
+/* Show it is fixed to the top */
+/* body {
+  min-height: 75rem;
+  padding-top: 4.5rem;
+} */
+
+#map { height: 600px;
+        position: relative; }
+
+.navbar-dark {
+  background-color: rgba(0,41.6,23.1,.85);
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, .5);
+}
+
+.jumbotron {
+  background-color: rgba(0,41.6,23.1,.1);
+}
+
+.navbar-dark .navbar-nav .active .nav-link {
+  color: #fff233;
+  text-shadow: 2px 2px 3px #000;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: white;
+  text-shadow: 2px 2px 3px #000;
+}
+
+.navbar-dark .navbar-brand {
+  color: #e65514;
+  font-weight: 900;
+  font-size: 2rem;
+  text-shadow: 2px 2px 2px #000;
+}
+
+.legend {
+    background: rgba(246,248,247,.7);
+    border: 5px solid rgba(0,41.6,23.1,1);
+    top: 90px;
+    left: 75px;
+    padding: 5px;
+    position: absolute;
+    width: 17%;
+    z-index: 5000;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, .7);
+    border-radius: 4px;
+}
+
+.legend-main {
+    top: 160px;
+}
+
+.leaflet-menu{
+  background-color: rgba(246,248,247,.7);
+  border: 5px solid rgba(0,41.6,23.1,1);
+  padding: 5px;
+  position: absolute;
+  width: 17%;
+  z-index: 5000;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, .7);
+  border-radius: 4px;
+}
+
+.ss-scroll {
+  width: 12px;
+  z-index: 9999;
+  background: rgba(0,41.6,23.1,.7);
+
+}
+
+#logo {
+   position:absolute;z-index:10; top:2px;right:2px;
+}
+
+.leaflet-bar a, .leaflet-bar a:hover{
+  background-color: #fff233;
+  border-bottom: 1px solid #000;
+}
+
+.leaflet-control {
+  background-color: #fff233;
+}
+
+.body-text {
+  color: #fff;
+  background-color: rgba(0,41.6,23.1,1);
+  border-radius: 14px;
+  padding: 12px;
+}
+
+/* b {
+  color: #fff233;
+} */
+
+.circle {
+  background: rgba(0, 0, 0, .5); /* color of the circle */
+  border-radius: 50%; /* make the div a circular shape */
+  box-shadow: 4px 4px 3px grey; /* see http://www.w3schools.com/css/css3_shadows.asp */
+  -moz-box-shadow: 4px 4px 3px grey;
+  -webkit-box-shadow: 4px 4px 3px grey;
+}
+
+.leaflet-control-minimap {
+    border: rgba(100, 94.9, 20.0, 1) solid;
+    border-radius: 3px;
+    background: #f8f8f9;
+    transition: all .6s
+}
