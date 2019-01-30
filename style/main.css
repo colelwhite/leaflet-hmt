@@ -1,20 +1,19 @@
 /* Website design custom CSS */
 
+
+/* Make sure Arial never happens */
+* {
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* Header text */
 h1 {
   color: #fff;
-
 }
 
 body {
-  font-family: 'Montserrat', sans-serif;
   background-color: #212222;
 }
-
-/* Show it is fixed to the top */
-/* body {
-  min-height: 75rem;
-  padding-top: 4.5rem;
-} */
 
 #map { height: 600px;
         position: relative; }
@@ -56,10 +55,12 @@ body {
     z-index: 5000;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, .7);
     border-radius: 4px;
+    text-align: center;
 }
 
 .legend-main {
-    top: 190px;
+    top: 210px;
+    text-align: left;
 }
 
 .leaflet-menu{
@@ -119,4 +120,70 @@ body {
     border-radius: 3px;
     background: #f8f8f9;
     transition: all .6s
+}
+
+
+.labelClass{
+line-height: 9pt;
+color: #272727;
+font-weight: 600;
+-webkit-text-fill-color: #272727; /* Will override color (regardless of order) */
+-webkit-text-stroke-width: 0.2px;
+-webkit-text-stroke-color: white;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 99999; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #fff999;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 50%;
+  height: 70%;
+  overflow: auto; /* Enable scroll if needed */
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* The Close Button */
+.close {
+ color: #000;
+ float: right;
+ font-size: 28px;
+ font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+ color: black;
+ text-decoration: none;
+ cursor: pointer;
 }

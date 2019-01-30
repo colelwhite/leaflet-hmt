@@ -10,17 +10,7 @@
 // Define functions
 // Function: onEachFeature function for trail segment pop-ups
 function onEachFeatureTrail(feature, layer) {
-    // layer.bindPopup('<b> <i>' + feature.properties.segname_de + '</b><br/>'
-    // + feature.properties.usercoun39 + '</i><br/><br/><b>Segment Length:</b> '
-    // + feature.properties.usercoun36 + ' metres <br/> <b>Managing Entity:</b> '
-    // + feature.properties.trailgroup + '<br/><b>Uses:</b> '
-    // + feature.properties.trailusage + '<br/><hr> <b>Average Daily Users:</b> '
-    // + feature.properties.usercoun21 + '<br/> <b>Peak Daily Use:</b> '
-    // + feature.properties.usercoun22 + '<br/><b>Pedestrian Traffic:</b> '
-    // + feature.properties.usercoun31 + '%<br/><b>Cyclist Traffic:</b> '
-    // + feature.properties.usercoun32 + '%<br/><b>Monthly Users:</b> '
-    // + feature.properties.usercoun34 + '<br/> <b>Adjusted Annual User Count:</b> '
-    // + feature.properties.usercoun35),
+
     layer.on({
       click: function(e) {
         legendTitle.innerHTML = feature.properties.name
@@ -68,6 +58,16 @@ function usercountStyle(feature) {
   };
 }
 
+function townStyle(feature) {
+  var labelToUse;
+
+  return {
+    "color": "#0d8141",
+    "icon": divIcon,
+
+  };
+}
+
 // Use style defined in main.css for custom icon
 var trailHeadIcon = L.divIcon({ className: 'circle'})
 // var myLine = L.Path({ className: 'my_polyline'})
@@ -79,40 +79,37 @@ var map = L.map('map', { minZoom:9, maxZoom:19, zoomControl:false })
 // CLUSTER
 var markers = L.markerClusterGroup();
 
-// // Basemap
-// var basemap =
-//     L.tileLayer('https://api.mapbox.com/styles/v1/nicoleleewhite/cjrc55sbq40iv2so1l8uompda/tiles/256/{z}/{x}/{y}?access_token=pk.eyJ1Ijoibmljb2xlbGVld2hpdGUiLCJhIjoiY2pyYzRwcDVzMDB0NTN5cWt1aXozYTN1ZSJ9.tTpLvFcAuaECgogHT0CYsg', {
-//     attribution: 'Map tiles by MapBox',
-//     maxZoom: 19,
-//     subdomains: 'abcd'
-// }).addTo(map);
+// Basemap
+var basemap =
+    L.tileLayer('https://api.mapbox.com/styles/v1/nicoleleewhite/cjrifqgs202ut2to6n10ozddh/tiles/256/{z}/{x}/{y}?access_token=pk.eyJ1Ijoibmljb2xlbGVld2hpdGUiLCJhIjoiY2pyYzRwcDVzMDB0NTN5cWt1aXozYTN1ZSJ9.tTpLvFcAuaECgogHT0CYsg', {
+    attribution: 'Map tiles by MapBox',
+    maxZoom: 19,
+    subdomains: 'abcd'
+}).addTo(map);
+
+// A second basemap to be used as keymap
+var basemap2 =
+    L.tileLayer('https://api.mapbox.com/styles/v1/nicoleleewhite/cjrh4rtd500zy2sr13seksbzz/tiles/256/{z}/{x}/{y}?access_token=pk.eyJ1Ijoibmljb2xlbGVld2hpdGUiLCJhIjoiY2pyYzRwcDVzMDB0NTN5cWt1aXozYTN1ZSJ9.tTpLvFcAuaECgogHT0CYsg', {
+    attribution: 'Map tiles by MapBox',
+    maxZoom: 19,
+    subdomains: 'abcd'
+})
+
+// var basemap = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+// 	maxZoom: 19,
+// 	attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+// });
 //
-// // A second basemap to be used as keymap
-// var basemap2 =
-//     L.tileLayer('https://api.mapbox.com/styles/v1/nicoleleewhite/cjrh4rtd500zy2sr13seksbzz/tiles/256/{z}/{x}/{y}?access_token=pk.eyJ1Ijoibmljb2xlbGVld2hpdGUiLCJhIjoiY2pyYzRwcDVzMDB0NTN5cWt1aXozYTN1ZSJ9.tTpLvFcAuaECgogHT0CYsg', {
-//     attribution: 'Map tiles by MapBox',
-//     maxZoom: 19,
-//     subdomains: 'abcd'
-// })
-
-var basemap = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-	maxZoom: 19,
-	attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
-});
-
-var basemap2 = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-	maxZoom: 19,
-	attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
-});
+// var basemap2 = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+// 	maxZoom: 19,
+// 	attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+// });
 
 // Keymap
 var lilmap = new L.Control.MiniMap(basemap2, { toggleDisplay: true }).addTo(map);
 
 
-// Locations of external GeoJSON files for map layers
-var trail_url = 'json/hmt.json';
-var poi_url = "json/poi.json";
-var trailh_url = "json/trailh.json";
+
 
 // Configure icons
 var lightIcon = L.icon({
@@ -138,6 +135,14 @@ var genericIcon = L.icon({
 });
 
 
+//L.marker(new L.LatLng(44.882, -65.161), {icon: divIcon }).addTo(map);
+
+// Locations of external GeoJSON files for map layers
+var trail_url = 'json/hmt.json';
+var poi_url = "json/poi.json";
+var trailh_url = "json/trailh.json";
+var town_url = "json/town_pt.json";
+
 // Geographic features
 var trailseg = new L.GeoJSON.AJAX(trail_url,
               {onEachFeature: onEachFeatureTrail,
@@ -149,9 +154,23 @@ var trailh = new L.GeoJSON.AJAX(trailh_url, {
   pointToLayer: function(feature, latlng) {
     return L.marker(latlng, {icon: trailHeadIcon});
   }
-})
+});
 
+// For each town feature, return a divIcon which is just an HTML text label
+var town = new L.GeoJSON.AJAX(town_url,
+              {onEachFeature: function(feature, layer) {
 
+                var divIcon = L.divIcon({
+                  // replace whitespace with a linebreak for stacked labels
+                  html: '<center>' + feature.properties.NAME.split(" ").join("<br/>") + '</center>',
+                  className: "labelClass"
+                })
+                layer.setIcon(divIcon);
+              }
+
+            });
+
+town.addTo(map);
 
 // Load custom icon, code from https://stackoverflow.com/questions/31601442/add-custom-icon-to-leaflet-ajax-data
 var poi = new L.GeoJSON.AJAX(poi_url,{
@@ -207,8 +226,11 @@ var slideMenu = L.control.slideMenu('', {position: 'bottomright', menuposition: 
  slideMenu.setContents(contents);
 
 // This adds the custom scrollbar to the 'leaflet-menu' class (slide menu)
-var el = document.querySelector('.leaflet-menu');
-SimpleScrollbar.initEl(el);
+// var el = document.querySelector('.modal-content');
+// SimpleScrollbar.initEl(el);
+
+
+
 
 // testing below
 // var marker = L.marker([51.509, -0.08], {icon: div_circle} ).addTo(map);
