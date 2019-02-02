@@ -1,4 +1,10 @@
-/* Website design custom CSS */
+/* ♥*♡∞:｡.｡｡･ﾟﾟ･.・゜゜・✧･ﾟ: *✧･ﾟ:* *:･ﾟ✧*:･ﾟ✧・゜゜・．･ﾟﾟ･｡｡.｡:∞♡*♥
+
+Name: main.js
+By: Nicole White January 2019
+Purpose: Javascript for Harvest Moon Trailway Leaflet web map.
+
+♥*♡∞:｡.｡｡･ﾟﾟ･.・゜゜・✧･ﾟ: *✧･ﾟ:* *:･ﾟ✧*:･ﾟ✧・゜゜・．･ﾟﾟ･｡｡.｡:∞♡*♥ */
 
 
 /* Make sure Arial never happens */
@@ -15,7 +21,7 @@ body {
   background-color: #212222;
 }
 
-#map { height: 600px;
+#map { height: 650px;
         position: relative; }
 
 .navbar-dark {
@@ -44,58 +50,37 @@ body {
   text-shadow: 2px 2px 2px #000;
 }
 
-.legend {
-    background: rgba(246,248,247,.7);
-    border: 5px solid rgba(0,41.6,23.1,1);
-    top: 90px;
-    left: 75px;
-    padding: 15px;
-    position: absolute;
-    width: 17%;
-    z-index: 5000;
-    box-shadow: 3px 3px 5px rgba(0, 0, 0, .7);
-    border-radius: 4px;
-    text-align: center;
-}
-
-.legend-main {
-    top: 210px;
-    text-align: left;
-}
-
+/* Slide menu */
 .leaflet-menu{
   background-color: rgba(246,248,247,.7);
   border: 5px solid rgba(0,41.6,23.1,1);
   padding: 15px;
   position: absolute;
-  width: 17%;
+  width: 300px;
   z-index: 5000;
   box-shadow: 3px 3px 5px rgba(0, 0, 0, .7);
   border-radius: 4px;
 }
 
-/* Custom scroll bar */
-.ss-scroll {
-  width: 12px;
-  z-index: 9999;
-  background: rgba(0,41.6,23.1,.7);
-
-}
-
+/* HMT logo */
 #logo {
    position:absolute;z-index:10; top:2px;right:2px;
 }
 
+/* Scale bar */
 .leaflet-bar a, .leaflet-bar a:hover{
   background-color: #fff233;
   border-bottom: 1px solid #000;
 }
 
 /* Control items (zoom, scalebar) are yellow */
-.leaflet-control {
+.leaflet-control  {
   background-color: #fff233;
 }
 
+.leaflet-menu-close-button {
+  background-color: #fff233;
+}
 .body-text {
   color: #fff;
   background-color: rgba(0,41.6,23.1,1);
@@ -103,10 +88,7 @@ body {
   padding: 12px;
 }
 
-/* b {
-  color: #fff233;
-} */
-
+/* Circle marker (trail heads) */
 .circle {
   background: rgba(0, 0, 0, .5); /* color of the circle */
   border-radius: 50%; /* make the div a circular shape */
@@ -115,6 +97,7 @@ body {
   -webkit-box-shadow: 4px 4px 3px grey;
 }
 
+/* minimap */
 .leaflet-control-minimap {
     border: rgba(0, 0, 0, 1) solid;
     border-radius: 3px;
@@ -122,7 +105,7 @@ body {
     transition: all .6s
 }
 
-
+/* Text labels (towns) */
 .labelClass{
 line-height: 9pt;
 color: #272727;
@@ -133,7 +116,7 @@ font-weight: 600;
 }
 
 /* The Modal (background) */
-.modal {
+.moda {
   display: none; /* Hidden by default */
   position: fixed; /* Stay in place */
   z-index: 99999; /* Sit on top */
@@ -145,20 +128,23 @@ font-weight: 600;
   overflow: auto; /* Enable scroll if needed */
   background-color: rgb(0,0,0); /* Fallback color */
   background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+
 }
 
 /* Modal Content */
-.modal-content {
+.moda-content {
   background-color: #fff999;
   margin: auto;
   padding: 20px;
   border: 1px solid #888;
+  border-radius: 8px;
   width: 50%;
   height: 70%;
   overflow: auto; /* Enable scroll if needed */
+
 }
 
-/* The Close Button */
+/* The Close Button of the modal */
 .close {
   color: #aaaaaa;
   float: right;
@@ -173,17 +159,18 @@ font-weight: 600;
   cursor: pointer;
 }
 
-/* The Close Button */
-.close {
- color: #000;
- float: right;
- font-size: 28px;
- font-weight: bold;
+/* inline-block allows lower navbar items to be centered */
+.fa-icons {
+  font-size: 38px;
+  display: inline-block;
 }
 
-.close:hover,
-.close:focus {
- color: black;
- text-decoration: none;
- cursor: pointer;
+.icon-padding {
+  padding-left: 20px;
+  padding-right: 20px;
+  display: inline-block;
+}
+
+.fixed-bottom {
+  display: inline-block;
 }

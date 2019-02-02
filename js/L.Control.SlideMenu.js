@@ -1,4 +1,7 @@
-L.Control.SlideMenu = L.Control.extend({
+var container;
+
+  L.Control.SlideMenu = L.Control.extend({
+
     options: {
         position: 'topleft',
         menuposition: 'topleft', // topleft,topright,bottomleft,bottomright

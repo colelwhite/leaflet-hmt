@@ -2,7 +2,7 @@
 //
 // Name: main.js
 // By: Nicole White January 2019
-// Purpose: Javascript for Leaflet web map.
+// Purpose: Javascript for Harvest Moon Trailway Leaflet web map.
 //
 //♥*♡∞:｡.｡｡･ﾟﾟ･.・゜゜・✧･ﾟ: *✧･ﾟ:* *:･ﾟ✧*:･ﾟ✧・゜゜・．･ﾟﾟ･｡｡.｡:∞♡*♥
 
@@ -13,50 +13,34 @@ function onEachFeatureTrail(feature, layer) {
 
     layer.on({
       click: function(e) {
-        legendTitle.innerHTML = feature.properties.name
-        legendBody.innerHTML = feature.properties.desc
-        document.getElementById("li1").innerHTML = '<b>Segment Length:</b> ' + feature.properties.length + ' metres'
-        document.getElementById("li2").innerHTML = '<b>Managing Entity:</b> ' + feature.properties.manager
-        document.getElementById("li3").innerHTML = '<b>Uses:</b> ' + feature.properties.usage
-        document.getElementById("li4").innerHTML = '<b>Average Daily Users:</b> ' + feature.properties.avedaily
-        document.getElementById("li5").innerHTML = '<b>Peak Daily Use:</b> ' + feature.properties.peakdaily
-        document.getElementById("li6").innerHTML = '<b>Pedestrian Traffic:</b> ' + feature.properties.pedpercent + '%'
-        document.getElementById("li7").innerHTML = '<b>Cyclist Traffic:</b> ' + feature.properties.cycpercent + '%'
-        document.getElementById("li8").innerHTML = '<b>Monthly Users:</b> ' + feature.properties.monthlyuse
-        document.getElementById("li8").innerHTML = '<b>Adjusted Annual User Count:</b> ' + feature.properties.adjustedan
+        lContent = '<b><h5>' + feature.properties.name
+                   + '</h5></b>'
+        lContent += '<i>' + feature.properties.desc + '</i><br/><br/>'
+        lContent += '<b>Segment Length:</b> ' + feature.properties.length
+                     + ' metres' + '<br/>'
+        lContent += '<b>Managing Entity:</b> ' + feature.properties.manager
+                    + '<br/>'
+        lContent += '<b>Uses:</b> ' + feature.properties.usage + '<br/>'
+        lContent += '<b>Average Daily Users:</b> '
+                     + feature.properties.avedaily + '<br/>'
+        lContent += '<b>Peak Daily Use:</b> ' + feature.properties.peakdaily
+                     + '<br/>'
+        lContent += '<b>Pedestrian Traffic:</b> '
+                    + feature.properties.pedpercent + '%' + '<br/>'
+        lContent += '<b>Cyclist Traffic:</b> ' + feature.properties.cycpercent
+                     + '%' + '<br/>'
+        lContent += '<b>Monthly Users:</b> ' + feature.properties.monthlyuse
+                     + '<br/>'
+        lContent += '<b>Adjusted Annual User Count:</b> '
+                    + feature.properties.adjustedan + '<br/>'
+        lSlideMenu.setContents(lContent)
 
       }
+
     })
 
 }
 
-
-
-// Function: Style trail lines by varying lineweight according to ave daily
-// users
-function usercountStyle(feature) {
-  var lineWeightToUse;
-  // var line = feature.properties.usercoun21;
-
-  // if (line < 125) lineWeightToUse = 0.5;
-  // else if (line >= 125 && line < 170) lineWeightToUse = 2.5;
-  // else if (line >= 170 && line < 215) lineWeightToUse = 3;
-  // else if (line >= 215 && line < 250) lineWeightToUse = 3.5;
-  // else if (line >= 250 && line < 300) lineWeightToUse = 4;
-  // else if (line >= 300 && line < 350) lineWeightToUse = 4.5;
-  // else if (line >= 350 && line < 400) lineWeightToUse = 5;
-  // else if (line >= 400 && line < 475) lineWeightToUse = 5.5;
-  // else if (line >= 475) lineWeightToUse = 6;
-  // else lineWeightToUse = 1;
-
-  lineWeightToUse = 2.5;
-
-  return {
-    "color": "#0d8141",
-    "weight": lineWeightToUse,
-
-  };
-}
 
 function townStyle(feature) {
   var labelToUse;
@@ -67,6 +51,13 @@ function townStyle(feature) {
 
   };
 }
+lContents = `<b><h5>The Harvest Moon Trailway</h5></b><br/>
+Annapolis and Kings Counties<br/>
+The Annapolis Valley<br/>Nova Scotia, Canada<br/><br/>
+<b>Trail Length:</b> 112 kilometres<br/>
+<b>Uses: </b>Walking, Cycling, Skiing, Horseback Riding, ATV
+
+`
 
 // Use style defined in main.css for custom icon
 var trailHeadIcon = L.divIcon({ className: 'circle'})
@@ -146,7 +137,11 @@ var town_url = "json/town_pt.json";
 // Geographic features
 var trailseg = new L.GeoJSON.AJAX(trail_url,
               {onEachFeature: onEachFeatureTrail,
-              style: usercountStyle
+              style: {
+                "color": "#0d8141",
+                "weight": 2.5,
+
+              }
             });
 
 // Trailheads use an icon defined in the css
@@ -208,7 +203,8 @@ var poiList = {'Lighthouse': lightIcon, 'Police': policeIcon,
                'Point of Interest': genericIcon}
 
 
-// Contents of right slide menu
+// Contents of right slide menu. Trail Head (L.divIcon) is added by default, then
+// everything from the poiList dictionary (L.icons) is added
 var contents = [`<br/> <div class="circle" style="width: 12px; height: 12px;
                 display: inline-block;"></div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 &nbsp;&nbsp;&nbsp;&nbsp; Trail Head <br/><br/>`]
@@ -225,33 +221,5 @@ for (var key in poiList) {
 var slideMenu = L.control.slideMenu('', {position: 'bottomright', menuposition: 'topright', width: '20%', height: '400px', delay: '50', icon: 'fa-chevron-left'}).addTo(map);
  slideMenu.setContents(contents);
 
-// This adds the custom scrollbar to the 'leaflet-menu' class (slide menu)
-// var el = document.querySelector('.modal-content');
-// SimpleScrollbar.initEl(el);
-
-
-
-
-// testing below
-// var marker = L.marker([51.509, -0.08], {icon: div_circle} ).addTo(map);
-
-// var hfx_url = "https://opendata.arcgis.com/datasets/f6921c5b12e64d17b5cd173cafb23677_0.geojson"
-// var hfx = new L.GeoJSON.AJAX(hfx_url).addTo(map);
-// console.log(hfx)
-//
-// L.marker([-64, 45]).addTo(map);
-
-// var geojsonFeature = {
-//     "type": "Feature",
-//     "properties": {
-//         "name": "Coors Field",
-//         "amenity": "Baseball Stadium",
-//         "popupContent": "This is where the Rockies play!"
-//     },
-//     "geometry": {
-//         "type": "Point",
-//         "coordinates": [-104.99404, 39.75621]
-//     }
-// };
-//
-// L.geoJSON(geojsonFeature).addTo(map);
+ var lSlideMenu = L.control.slideMenu('', {position: 'bottomleft', menuposition: 'topleft', width: '20%', height: '400px', delay: '50', icon: 'fa-chevron-right'}).addTo(map);
+  lSlideMenu.setContents(lContents);

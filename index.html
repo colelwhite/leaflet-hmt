@@ -16,15 +16,12 @@
       <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
       <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet'>
       <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
-      <link rel="stylesheet" href="style/simple-scrollbar.css" />
-
-      <script src="js/jquery-3.3.1.min.js"></script>
 
       <link rel="stylesheet" href="https://unpkg.com/leaflet@1.4.0/dist/leaflet.css"
        integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
        crossorigin=""/>
 
-        <script src="https://unpkg.com/leaflet@1.4.0/dist/leaflet.js"
+      <script src="https://unpkg.com/leaflet@1.4.0/dist/leaflet.js"
         integrity="sha512-QVftwZFqvtRNi0ZyCtsznlKSWOStnDORoefr1enyq5mVL4tmKB3S/EnC3rRJcxCPavG10IcrVGSmPh6Qw5lwrg=="
         crossorigin=""></script>
 
@@ -62,7 +59,7 @@
           </li>
 
           <li class="nav-item">
-             <a class="nav-link" href="#body-text">Explore</a>
+             <a class="nav-link" href="#body-text" id="explore-button">Explore</a>
           </li>
 
           <li class="nav-item">
@@ -71,96 +68,65 @@
 
         </ul>
         <div id="logo">
-
         <img src="img/logo_sm.png" width=120 />
         </div>
       </div>
     </nav>
 
 
-
     <!-- Leaflet map element -->
     <div id="map">
       <!-- The Modal -->
-      <div id="myModal" class="modal">
+      <div id="myModal" class="moda" >
 
         <!-- Modal content -->
-        <div class="modal-content">
+        <div class="moda-content">
           <span class="close">&times;</span>
-          <p id = "modal-content">Some text in the Modal..</p>
+          <p id = "moda-content">
+          </p>
         </div>
-
-      </div>
-
-<div class="legend">
-  <strong id="legend-title"></strong>
-  <br/>
-  <div id="legend-body">
-
-</div>
-  </div>
-
-      <div class="legend-main legend ">
-
-            <div id = "li1">
-            <b>Trail Length:</b> 112 kilometres
-          </div>
-            <div id = "li2">
-            <b>Uses: </b>Walking, Cycling, Horseback Riding, ATV
-          </div>
-            <div id = "li3">
-
-          </div>
-            <div id = "li4">
-              <br/>
-
-            Click on a trail segment to get more information about individual
-            routes, or explore the Points
-            of Interest to help plan your adventures in the Annapolis
-            Valley!
-
-            </div>
-          </div>
-            <div id = "li5">
-
-          </div>
-            <div id = "li6">
-
-          </div>
-          <div id = "li7">
-
-        </div>
-        <div id = "li8">
-
       </div>
       </div>
-     </div>
 
+<!-- Bootstrap bottom navbar -->
+<div style = "text-align:center;">
+      <nav class="navbar fixed-bottom navbar-expand-sm navbar-dark bg-dark">
 
-
-
-
-
-
+              <ul class="navbar-nav mr-auto fa-icons">
+                <li class="nav-item icon-padding">
+                  <i class="fas fa-walking"></i>
+                </li>
+                <li class="nav-item icon-padding">
+                  <i class="fas fa-bicycle "></i>
+                </li>
+                <li class="nav-item icon-padding">
+                  <i class="fas fa-hiking"></i>
+                </li>
+                <li class="nav-item icon-padding">
+                  <i class="fas fa-skiing-nordic"></i>
+                </li>
+                <li class="nav-item icon-padding">
+                  <i class="fas fa-running"></i>
+                </li>
+              </ul>
+          </nav>
+          </div>
     <!-- Leaflet-ajax library from https://github.com/calvinmetcalf/leaflet-ajax -->
     <script src="js/leaflet.ajax.min.js"></script>
-
     <!-- Cluster -->
     <script src="js/markercluster.js"></script>
     <!-- Mini Map -->
     <script src="js/Control.MiniMap.min.js"></script>
-<!-- Slide menu -->
-      <script src="js/L.Control.SlideMenu.js"></script>
-<!-- Custom scroll bar -->
-      <script src="js/simple-scrollbar.min.js"></script>
+    <!-- Slide menu -->
+    <script src="js/L.Control.SlideMenu.js"></script>
+
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
 
     <!-- Map script - Loads basemap, external geojson layers, etc. -->
     <script src = "js/main.js"></script>
-
     <!-- Website script - onClicks and things -->
     <script src = "js/site_features.js"></script>
-
-
 
 
 	</body>
